@@ -3,6 +3,7 @@ package finance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import quickfix.*;
+import quickfix.Application;
 
 public class ServerApplicationAdapter implements Application {
 
