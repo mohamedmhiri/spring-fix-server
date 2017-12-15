@@ -17,7 +17,7 @@ import quickfix.*/
 
 @EnableQuickFixJServer
 @SpringBootApplication
-public class AppServer implements CommandLineRunner{
+public class AppServer/* implements CommandLineRunner*/{
 
     private static final Logger log = LoggerFactory.getLogger(AppServer.class);
 
@@ -26,7 +26,7 @@ public class AppServer implements CommandLineRunner{
         SpringApplication.run(AppServer.class, args);
     }
 
-    @Override
+    /*@Override
     public void run(String... args) throws Exception {
         log.info("Joining thread, you can press Ctrl+C to shutdown application");
         Thread.currentThread().join();
@@ -45,5 +45,5 @@ public class AppServer implements CommandLineRunner{
         return new ThreadedSocketAcceptor(serverApplication, serverMessageStoreFactory, serverSessionSettings,
                 serverLogFactory, serverMessageFactory);
 
-    }
+    }*/
 }

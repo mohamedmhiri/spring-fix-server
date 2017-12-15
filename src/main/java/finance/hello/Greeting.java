@@ -1,4 +1,4 @@
-package finance;
+package hello;
 
 public class Greeting {
 
